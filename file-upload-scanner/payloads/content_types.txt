@@ -1,0 +1,13 @@
+application/x-php
+application/x-httpd-php
+application/x-asp
+application/x-jsp
+text/php
+text/html
+image/jpeg
+image/png
+image/gif
+text/plain
+application/octet-stream
+multipart/form-data
+application/x-www-form-urlencoded

